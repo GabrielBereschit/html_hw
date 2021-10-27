@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+        <title>Main Form</title>
+    </head>
+    <body>
+        <container style="direction:ltr;">
+            <form>
+                <table>
+                <tr>  
+                    <td>
+                        <label>Search Text:</label> 
+                        <input type="text" id="user_name" name="fname">
+                    </td>
+                </tr>
+                <tr>               
+                    <td>
+                            <label>That Was Updated In:</label>
+                            <select name="pets" id="date_slct">
+                                <option value="">אנא ביחרו את האפשרות</option>
+                                <option value="last_month">Last month</option>
+                                <option value="last_weekend">Last weekend</option>
+                                <option value="yesterday">Yesterday</option>
+                                <option value="today">Today</option>
+                            </select>
+                    </td>
+                </tr>
+                
+                <tr>            
+                    <td>
+                        <label>Search pages only in Hebrew:</label>
+                        <input type="checkbox" name="lang_agre">    
+                        
+                    </td>
+                </tr>
+                <tr>                
+                    <td>
+                            <label>Number of results</label>
+                            <input type="number" id="lang_chkbx" name="lang_agre">
+                    </td>
+                </tr>
+                <tr>                    
+                    <td>
+                            <input type="submit" id="Submit" name="submit" value="Ask Google">
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </container>
+    </body>
+</html>
